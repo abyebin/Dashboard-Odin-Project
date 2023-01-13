@@ -317,10 +317,13 @@ a{
     align-items: center;
 }
 
-.right .right-top-box{
+.right-bottom-container{
     width: 100%;
-    padding: 20px;
+}
+
+.right-bottom-box,.right-top-box {
     background-color: var(--content-color);
+    padding: 20px;
     border-radius: 20px;
 }
 .right h3{
@@ -333,4 +336,8 @@ a{
 }
 .right .p:last-of-type{
     border: none;
+}
+
+.profiles{
+    margin: 20px 0;
 }
